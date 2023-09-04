@@ -5,6 +5,10 @@
     box-sizing: border-box;
    }
 
+html {
+	scroll-behavior: smooth;
+}
+
 
 .navbar-brand {
 	font-family: 'Sacramento', cursive;
@@ -22,11 +26,13 @@
 	text-shadow: 0 0 15px #8e54e9;
 }
 
+
 body {
   background: linear-gradient(90deg, #b9deed, #efefef);
 }
 
-h1, h2, p, nav {
+
+h1, h2, h4, p, nav {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
   text-transform: none;
@@ -34,17 +40,21 @@ h1, h2, p, nav {
   color: #1d1d1d;
 }
 
-h1, h2 {
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+h1, h2, button {
+  text-shadow: 0 0 3px #0000FF, 0 0 5px #0000ff;
 }
 
+
 .profile {
-	filter: drop-shadow(-20px -20px 20px lightpink);
+	filter: drop-shadow(-20px -20px 20px #2584a1);
 }
+
 
 .card {
 	filter: drop-shadow(-10px -10px 10px skyblue);
 }
+
 
 .fa {
   padding: 20px;
@@ -54,7 +64,12 @@ h1, h2 {
   text-decoration: none;
 }
 
+
 .fa:hover {
   opacity: 0.7;
 }
 
+
+footer {
+	background: #efefef;
+}
