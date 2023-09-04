@@ -5,6 +5,52 @@
     box-sizing: border-box;
    }
 
-   #landing {
-   	bg-gradient-primary
-   }
+
+.navbar-brand {
+	font-family: 'Sacramento', cursive;
+	font-size: 25px;
+	text-transform: none;
+	letter-spacing: 0.5rem;
+}
+
+
+.navbar {
+	background: #efefef;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	text-shadow: 0 0 15px #8e54e9;
+}
+
+body {
+  background: linear-gradient(90deg, #b9deed, #efefef);
+}
+
+h1, h2, p, nav {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.15em;
+  color: #1d1d1d;
+}
+
+h1, h2 {
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+.profile {
+	filter: drop-shadow(-20px -20px 20px lightpink);
+}
+
+.card {
+	filter: drop-shadow(-10px -10px 10px skyblue);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+

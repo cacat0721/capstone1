@@ -9,14 +9,26 @@
 
 	<link rel="stylesheet" type="text/css" href="./index.css">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+
+	<!-- H1, H2, p -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+	<!-- Social media buttons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 	<title>Capstone 01 - Carlo Cator</title>
 
 </head>
 <body id="#">
 
 		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-info text-light sticky-top">
-		  <a class="navbar-brand" href="#">Carlo</a>
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		  <a class="navbar-brand ml-3" href="#">Carlo</a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
@@ -25,19 +37,19 @@
 		    <ul class="navbar-nav ml-auto">
 		      
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Home <span class="sr-only">(current)</span></a>
+		        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
 		      </li>
 		      
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Project</a>
+		        <a class="nav-link active" href="#projects">Projects</a>
 		      </li>
 
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Contacts</a>
+		        <a class="nav-link active" href="#contacts">Contacts</a>
 		      </li>
 
 		      <li class="nav-item">
-		        <a class="nav-link text-dark" href="#">Tools</a>
+		        <a class="nav-link active" href="#tools">Tools</a>
 		      </li>
 
 		    </ul>
@@ -50,13 +62,13 @@
 
 		<div id="landing" class="container-fluid">
 
-			<div class="row bg-dark text-light p-5 justify-content-center align-items-center">				
+			<div class="row justify-content-center align-items-center py-4 py-lg-5">				
 
-				<div class="col-12 col-md-5 p-3 py-lg-5">
-					<img src="./images/me.jpg" class="rounded-circle border border-light img-fluid">
+				<div class="col-12 col-md-4 py-lg-5">
+					<img src="./images/me.jpg" class="profile rounded-circle border border-light img-fluid">
 				</div>
 
-				<div class="col-12 col-md-7 mt-5 p-3 py-lg-5">
+				<div class="col-md-8 col-lg-5 pl-md-5 mt-5 py-lg-5">
 
 					<h1>Carlo Cator</h1>
 					<h2 class="mt-5">Full-Stack Web Developer</h2>
@@ -66,68 +78,127 @@
 
 			</div>
 
-		</div>
-
-
-
-
-
 
 
 
 		<!-- Projects -->
-		<div class="row">
-		<div class="card" style="width: 18rem;">
-		  <img src="..." class="card-img-top" alt="...">
+		<h1 class="mb-5 text-center" id="projects">My Projects</h1>
+
+		<div class="row my-5 justify-content-center">
+
+		<div class="card col-md-3 mr-lg-5 border-dark">
+		  <img src="./images/task.png" class="card-img-top mt-3">
 		  <div class="card-body">
-		    <h5 class="card-title">Card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <h5 class="card-title mt-3 mb-5">Task Management Application</h5>
+		    <p class="card-text text-justify">Task Management Application is a software tool designed to help individuals and teams efficiently organize, track, and prioritize their tasks and projects. It serves as a central hub for managing work-related activities and improving productivity.</p>
 		  </div>
 		</div>
 
 
-		<div class="card" style="width: 18rem;">
-		  <img src="..." class="card-img-top" alt="...">
+		<div class="card col-md-3 mr-lg-5 border-dark">
+		  <img src="./images/auction.jpeg" class="card-img-top mt-3">
 		  <div class="card-body">
-		    <h5 class="card-title">Card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <h5 class="card-title mt-3 mb-5">Online Auction</h5>
+		    <p class="card-text text-justify">online auction website is a digital platform where individuals and businesses can buy and sell goods and services through an auction-style format conducted over the internet. These websites have gained widespread popularity as they provide a convenient and efficient way for people to participate in auctions, both as buyers and sellers.</p>
 		  </div>
 		</div>
 
-		<div class="card" style="width: 18rem;">
-		  <img src="..." class="card-img-top" alt="...">
+
+		<div class="card col-md-3 border-dark">
+		  <img src="./images/fitness.jpeg" class="card-img-top mt-3">
 		  <div class="card-body">
-		    <h5 class="card-title">Card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <h5 class="card-title mt-3 mb-5">Fitness and Health Tracker</h5>
+		    <p class="card-text text-justify">Fitness and Health Tracker Website is an online platform dedicated to providing users with comprehensive tools and resources for tracking, managing, and improving their physical fitness and overall health. These websites serve as hubs for individuals seeking to monitor their progress, set goals, access informative content, and connect with a community of like-minded individuals.</p>
 		  </div>
 		</div>
 
+
+
+		
 	</div>
-
-
-
-		<!-- Contacts -->
-
-
-
-
-
-
-
-
 
 
 		<!-- Tools -->
 
+		 <h1 class="text-center mt-5 mb-5">Tools</h1>
+
+            <div class="d-flex justify-content-center align-items-center flex-column" id="tools">
+                <div class="d-flex justify-content-center align-items-center flex-row">
+                    <img width="150" src="images/logo-html5.png"/>
+                </div>
+                
+                <div class="d-flex justify-content-center align-items-center flex-row">
+                    <img width="150" src="images/logo-css3.png"/>
+                    <img width="150" src="images/logo-javascript.png"/>
+                </div>
+                
+                <div class="d-md-flex justify-content-center">
+                        <img width="150" src="images/logo-mongodb.png"/>
+                        <img width="150" src="images/logo-nodejs.png"/>
+                        <img width="150" src="images/logo-expressjs.png"/>
+                        <img width="150" src="images/logo-react.png"/>
+                </div>
+
+                <div class="d-md-flex justify-content-center">
+                        <img width="150" src="images/logo-git.png"/>
+                        <img width="150" src="images/logo-sublime-text-3.png"/>
+                        <img width="150" src="images/logo-postman.png"/>
+                        <img width="150" src="images/logo-gitlab-ci-cd.png"/>
+                </div>
+
+            </div>
+			
+		</div>
+
+		<!-- Contacts -->
+
+		<div class="container-fluid p-3">
+						
+			<h1 class="mt-5">Contact Me</h1>
+			
+			<div class="row mt-5 justify-content-center">
+				
+				<div class="col-12 col-md-8 col-xl-4 p-3 rounded-sm" id="column-div">
+					
+					<div class="d-flex mb-5">
+						<a href="https://www.facebook.com/catorcarlohttps://www.linkedin.com/in/carlo-cator-0898921b8/" class="fa fa-facebook mr-5"></a>
+						<a href="#" class="fa fa-twitter"></a>
+					</div>
+
+					<form>	
+
+					<div class="form-group">
+						<label for="name">Fullname</label>
+						<input type="text" class="form-control" id="name" placeholder="Your Name">
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email adress</label>
+						<input type="email" class="form-control" id="email" placeholder="name@example.com">
+						</div>
+
+					<div class="form-group">
+						<label for="contact-number">Contact number</label>
+						<input type="tel" class="form-control" id="contact-number" placeholder="+63 900 000 0000">
+					</div>
+
+					<div class="form-group">	
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" rows="5"></textarea>
+					</div>
+
+					<div>
+						<button type="button" class="btn btn-dark mb-1 mt-3" data-toggle="modal" data-target="#modalDiv">Send</button>
+					</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
 
 
 
-
-
-
-
-
-
+		</div>
 
 
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
