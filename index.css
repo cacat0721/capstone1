@@ -23,7 +23,7 @@ html {
 	display: flex;
 	align-items: center;
 	list-style: none;
-	text-shadow: 0 0 15px #8e54e9;
+	text-shadow: 0 0 15px #2584a1;
 }
 
 
@@ -42,7 +42,7 @@ h1, h2, h4, p, nav {
 
 
 h1, h2, button {
-  text-shadow: 0 0 3px #0000FF, 0 0 5px #0000ff;
+  text-shadow: 0 0 3px #2584a1, 0 0 5px #2584a1;
 }
 
 
