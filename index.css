@@ -28,7 +28,7 @@ html {
 
 
 body {
-  background: linear-gradient(90deg, #b9deed, #efefef);
+  background: linear-gradient(120deg, #5757FF, #b9deed, #b9deed, #5757FF);
 }
 
 
@@ -47,7 +47,7 @@ h1, h2, button {
 
 
 .profile {
-	filter: drop-shadow(-20px -20px 20px #2584a1);
+	filter: drop-shadow(-20px -20px 20px #f7f7f7);
 }
 
 
