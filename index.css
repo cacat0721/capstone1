@@ -18,6 +18,11 @@ html {
 }
 
 
+.navbar-toggler {
+	color: black;
+}
+
+
 .navbar {
 	background: #efefef;
 	display: flex;
@@ -28,7 +33,7 @@ html {
 
 
 body {
-  background: linear-gradient(120deg, #5757FF, #b9deed, #b9deed, #5757FF);
+  background: linear-gradient(120deg, #5757FF, #b9deed, #b9deed, #b9deed, #5757FF);
 }
 
 
